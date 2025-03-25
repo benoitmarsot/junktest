@@ -17,6 +17,10 @@ import java.util.Map;
 
 import javax.naming.AuthenticationException;
 
+/**
+ * AuthController
+ * This is a change
+ */
 @RestController
 @RequestMapping("/api/v1/auth")
 public class AuthController {
