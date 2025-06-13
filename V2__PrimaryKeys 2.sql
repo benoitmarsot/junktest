@@ -1,5 +1,5 @@
 SET search_path TO public;
--- This is a new test to see the thing refresh
+-- This is a new new test to see the thing refresh
 DO $$
 BEGIN
     IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'users_pkey') THEN
