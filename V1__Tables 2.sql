@@ -1,5 +1,5 @@
 SET search_path TO public;
--- comment 1
+-- comment 2
 create table if not exists core.users (
     userid serial,
     name varchar(50) not null,
